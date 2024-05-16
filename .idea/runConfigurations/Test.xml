@@ -1,0 +1,16 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Test" type="Application" factoryName="Application" nameIsGenerated="true">
+    <option name="MAIN_CLASS_NAME" value="com.projectgalen.lib.cmdproc.test.Test" />
+    <module name="PGJCmdProc" />
+    <option name="PROGRAM_PARAMETERS" value="--sample1" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="com.projectgalen.lib.cmdproc.test.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="clean deploy" />
+    </method>
+  </configuration>
+</component>
